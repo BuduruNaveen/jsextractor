@@ -79,6 +79,7 @@ def main():
         print("  Single URL:  python js_extractor.py https://example.com")
         print("  Multiple:    python js_extractor.py urls.txt")
         print("  JSON output: python js_extractor.py https://example.com --json")
+         print("@naveenventure <3")
         sys.exit(1)
 
     output_json = "--json" in sys.argv
